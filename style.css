@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap')*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 120px;
+    background-color: #0b82d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 48px;
+    margin-left: 20px;
+    font-family: "Changa", sans-serif;
+}
+.main{
+    padding: 30px;
+    background-color: #818181;
+}
+.post{
+    background-color: #fff;
+    display: block flex;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.pic img{
+    width: 150px;
+    height: 250px;
+    margin-right: 15px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-right: ;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Changa", sans-serif;
+}
+.footer{
+    background-color: rgb(46, 86, 216);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.gallery img{
+    width: 40%;
+}
+.gallery{
+    text-align: center;
+}
+.gallery img:hover{
+    opacity: 1;
+}
+.video{
+    text-align: center;
+}
+.textvideo{
+    color: aliceblue;
+    font-size: 42px;
+    margin-bottom: 30px; ;
+}
+.contacts img{
+    width: 50px;
+
+}
+.contacts{
+    display:flex;
+    align-items:center;
+    margin-bottom: 30px;
+}
